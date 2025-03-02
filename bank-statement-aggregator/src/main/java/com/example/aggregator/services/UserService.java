@@ -28,7 +28,7 @@ public class UserService {
     	System.out.println(company2);
         if (user.getCompany() == null || user.getCompany().getCompanyId() == null) {
             System.out.println("Company information is required");
-            return "Company information is required";
+            return "Company information is requiredd";
         }
 
         // Check if the company exists
